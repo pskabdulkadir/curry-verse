@@ -1,0 +1,929 @@
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "memberId": "ak0000001",
+      "fullName": "Abdulkadir Kan",
+      "email": "psikologabdulkadirkan@gmail.com",
+      "phone": "+90 555 123 4567",
+      "password": "8553e2514df607ab2251298c0e29f408af59f39c2027d6978fe4ff9628f9574b",
+      "role": "admin",
+      "referralCode": "AK0001",
+      "membershipType": "entry",
+      "membershipStartDate": "2024-01-01T00:00:00.000Z",
+      "isActive": true,
+      "careerLevel": {
+        "id": 7,
+        "name": "Nefs-i Kâmile",
+        "description": "Olgunlaşmış, kemale ermiş nefis",
+        "minInvestment": 25000,
+        "minDirectReferrals": 3,
+        "commissionRate": 12,
+        "passiveIncomeRate": 4,
+        "bonus": 2500,
+        "requirements": [
+          "3 lider",
+          "$25000 yatırım"
+        ]
+      },
+      "totalInvestment": 100000,
+      "directReferrals": 1,
+      "totalTeamSize": 1,
+      "wallet": {
+        "balance": 50000,
+        "totalEarnings": 0,
+        "sponsorBonus": 0,
+        "careerBonus": 0,
+        "passiveIncome": 0,
+        "leadershipBonus": 0
+      },
+      "kycStatus": "approved",
+      "registrationDate": "2024-01-01T00:00:00.000Z",
+      "lastLoginDate": "2025-07-24T21:05:41.477Z",
+      "rightChild": "ce28efb8-f712-44f1-9b80-3f857459eb3e"
+    },
+    {
+      "id": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "memberId": "ak0000002",
+      "fullName": "Test User",
+      "email": "test@test.com",
+      "phone": "1234567890",
+      "password": "$2b$12$b5ZDXQzoEG1j7q9iGIWJE.BeptFY98M7dd9q/oX0PLKpKJJeYjBuC",
+      "role": "member",
+      "referralCode": "TU7595",
+      "sponsorId": "admin-001",
+      "membershipType": "entry",
+      "membershipStartDate": "2025-07-21T22:50:19.265Z",
+      "isActive": true,
+      "careerLevel": {
+        "id": 1,
+        "name": "Nefs-i Emmare",
+        "description": "Kötülüğü emreden nefis - Giriş seviyesi",
+        "minInvestment": 0,
+        "minDirectReferrals": 0,
+        "commissionRate": 2,
+        "passiveIncomeRate": 0,
+        "bonus": 0,
+        "requirements": [
+          "Giriş seviyesi"
+        ]
+      },
+      "totalInvestment": 0,
+      "directReferrals": 0,
+      "totalTeamSize": 0,
+      "wallet": {
+        "balance": 0,
+        "totalEarnings": 0,
+        "sponsorBonus": 0,
+        "careerBonus": 0,
+        "passiveIncome": 0,
+        "leadershipBonus": 0
+      },
+      "kycStatus": "pending",
+      "registrationDate": "2025-07-21T22:50:19.265Z",
+      "lastLoginDate": "2025-07-21T23:43:10.914Z",
+      "twoFactorEnabled": false
+    }
+  ],
+  "transactions": [],
+  "paymentRequests": [],
+  "spiritualCalculations": [],
+  "clonePages": [
+    {
+      "userId": "admin-001",
+      "slug": "abdulkadir-kan",
+      "isActive": true,
+      "visitCount": 0,
+      "conversionCount": 0,
+      "customizations": {
+        "customMessage": "Manevi yolculuğunuzda rehberiniz olacağım. - Abdulkadir Kan"
+      }
+    },
+    {
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "slug": "ak0000002",
+      "isActive": true,
+      "visitCount": 0,
+      "conversionCount": 0,
+      "customizations": {
+        "customMessage": "Test User üzerinden sisteme katılın ve manevi yolculuğunuza başlayın!"
+      }
+    },
+    {
+      "userId": "admin-001",
+      "slug": "ak0000001",
+      "isActive": true,
+      "visitCount": 0,
+      "conversionCount": 0,
+      "customizations": {
+        "customMessage": "Abdulkadir Kan üzerinden sisteme katılın ve manevi yolculuğunuza başlayın!"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "sg001",
+      "name": "Ray-Ban Aviator Classic",
+      "description": "Klasik pilot güneş gözlüğü - İkonik tasarım",
+      "price": 150,
+      "originalPrice": 180,
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "category": "Klasik",
+      "features": [
+        "UV400 Koruma",
+        "Polarize Cam",
+        "Metal Çerçeve",
+        "Ayarlanabilir Burun Pedi"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 245,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sg002",
+      "name": "Oakley Holbrook",
+      "description": "Modern spor tasarım - Aktif yaşam için ideal",
+      "price": 120,
+      "originalPrice": 145,
+      "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "category": "Spor",
+      "features": [
+        "Prizm Teknolojisi",
+        "Çarpışma Direnci",
+        "Hafif Malzeme",
+        "Ergonomik Tasarım"
+      ],
+      "inStock": true,
+      "rating": 4.9,
+      "reviews": 189,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sg003",
+      "name": "Persol Steve McQueen",
+      "description": "Vintage lüks tasarım - El yapım�� kalite",
+      "price": 280,
+      "originalPrice": 320,
+      "image": "https://images.unsplash.com/photo-1556306535-38febf6782e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "category": "Lüks",
+      "features": [
+        "El Yapımı",
+        "Asetate Çerçeve",
+        "Kristal Camlar",
+        "İtalyan Tasarımı"
+      ],
+      "inStock": true,
+      "rating": 4.9,
+      "reviews": 156,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sg004",
+      "name": "Polaroid Cat Eye",
+      "description": "Retro kadın modeli - Şık ve zarif",
+      "price": 65,
+      "originalPrice": 85,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "category": "Kadın",
+      "features": [
+        "Cat Eye Tasarım",
+        "Gradient Renkler",
+        "Asetat Çerçeve",
+        "Vintage Stil"
+      ],
+      "inStock": true,
+      "rating": 4.6,
+      "reviews": 203,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sg005",
+      "name": "Maui Jim Cliff House",
+      "description": "Tropikal aktiviteler i��in profesyonel koruma",
+      "price": 195,
+      "originalPrice": 230,
+      "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "category": "Outdoor",
+      "features": [
+        "SuperThin Glass",
+        "Anti-Reflektif",
+        "Titanium Çerçeve",
+        "Su Aktiviteleri"
+      ],
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 167,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sg006",
+      "name": "Gucci Square Frame",
+      "description": "High fashion lüks gözlük - Designer koleksiyonu",
+      "price": 420,
+      "originalPrice": 495,
+      "image": "https://images.unsplash.com/photo-1577803645773-f96470509666?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "category": "Designer",
+      "features": [
+        "İtalyan Tasarım",
+        "Premium Malzeme",
+        "Marka Garantisi",
+        "Lüks Kutulu"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 98,
+      "isActive": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2025-07-24T20:47:34.211Z"
+    }
+  ],
+  "investments": [],
+  "withdrawals": [],
+  "productPurchases": [],
+  "productCommissions": [],
+  "settings": {
+    "systemSettings": {
+      "maxCapacity": 100000,
+      "autoPlacement": true,
+      "registrationEnabled": true,
+      "maintenanceMode": false,
+      "lastMemberNumber": 2,
+      "performanceMode": true,
+      "cacheEnabled": true,
+      "batchSize": 100
+    },
+    "commissionSettings": {
+      "sponsorBonusRate": 10,
+      "careerBonusRate": 25,
+      "passiveIncomeRate": 5,
+      "systemFundRate": 60
+    }
+  },
+  "performanceMetrics": {
+    "totalUsers": 1,
+    "activeUsers": 1,
+    "lastOptimized": "2025-07-20T17:18:55.923Z",
+    "cacheHitRate": 0,
+    "averageResponseTime": 0
+  },
+  "announcements": [
+    {
+      "id": "announce-001",
+      "title": "Sisteme Hoş Geldiniz",
+      "content": "Kutbul Zaman - Manevi Rehberim sistemine hoş geldiniz. Ruhsal ve finansal gelişim yolculuğunuz başlıyor.",
+      "type": "info",
+      "priority": "high",
+      "targetAudience": "all",
+      "startDate": "2025-07-20T17:18:55.923Z",
+      "isActive": true,
+      "createdBy": "admin-001",
+      "createdAt": "2025-07-20T17:18:55.923Z"
+    }
+  ],
+  "memberSessions": [
+    {
+      "id": "a71f1334-599e-4a7f-b7fd-76ea26026bc9",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbi0wMDEiLCJlbWFpbCI6InBzaWtvbG9nYWJkdWxrYWRpcmthbkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJtZW1iZXJJZCI6ImFrMDAwMDAwMSIsImlhdCI6MTc1MzEzNzYzOSwiZXhwIjoxNzUzNzQyNDM5LCJhdWQiOiJrdXRidWwtemFtYW4tdXNlcnMiLCJpc3MiOiJrdXRidWwtemFtYW4ifQ.a9KX9oCACJqLHi-yZJr_QHPssXszrUuvQRgQBXaUgGc",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "loginTime": "2025-07-21T22:40:39.756Z",
+      "isActive": true,
+      "lastActivity": "2025-07-21T22:40:39.756Z"
+    },
+    {
+      "id": "8f316d57-fe30-4032-b407-c36a406915c8",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjZTI4ZWZiOC1mNzEyLTQ0ZjEtOWI4MC0zZjg1NzQ1OWViM2UiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoibWVtYmVyIiwibWVtYmVySWQiOiJhazAwMDAwMDIiLCJpYXQiOjE3NTMxMzgyMjMsImV4cCI6MTc1Mzc0MzAyMywiYXVkIjoia3V0YnVsLXphbWFuLXVzZXJzIiwiaXNzIjoia3V0YnVsLXphbWFuIn0.sHWjZQpVSGaqRjrg0rsNwfVeQXUH-kBjLfetKNZJ5K8",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "loginTime": "2025-07-21T22:50:23.940Z",
+      "isActive": true,
+      "lastActivity": "2025-07-21T22:50:23.940Z"
+    },
+    {
+      "id": "40067078-6252-4d31-92a3-b79ab29852a6",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjZTI4ZWZiOC1mNzEyLTQ0ZjEtOWI4MC0zZjg1NzQ1OWViM2UiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoibWVtYmVyIiwibWVtYmVySWQiOiJhazAwMDAwMDIiLCJpYXQiOjE3NTMxMzgyMjgsImV4cCI6MTc1Mzc0MzAyOCwiYXVkIjoia3V0YnVsLXphbWFuLXVzZXJzIiwiaXNzIjoia3V0YnVsLXphbWFuIn0.jvVrhnqjmtE77K9jZQ8fdzRaOXDcGfbRnu7jwSvbOPo",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "loginTime": "2025-07-21T22:50:28.932Z",
+      "isActive": true,
+      "lastActivity": "2025-07-21T22:50:28.932Z"
+    },
+    {
+      "id": "66b57ce7-45ad-4a85-843e-4d80654baea9",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjZTI4ZWZiOC1mNzEyLTQ0ZjEtOWI4MC0zZjg1NzQ1OWViM2UiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoibWVtYmVyIiwibWVtYmVySWQiOiJhazAwMDAwMDIiLCJpYXQiOjE3NTMxNDEyNjgsImV4cCI6MTc1Mzc0NjA2OCwiYXVkIjoia3V0YnVsLXphbWFuLXVzZXJzIiwiaXNzIjoia3V0YnVsLXphbWFuIn0.31VNVjruWHwkq-SBRyvItL1VnxZxkQAP9AFidjnI6wo",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "loginTime": "2025-07-21T23:41:08.956Z",
+      "isActive": true,
+      "lastActivity": "2025-07-21T23:41:08.956Z"
+    },
+    {
+      "id": "9e52f584-b200-4670-acc3-75bfa1347237",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjZTI4ZWZiOC1mNzEyLTQ0ZjEtOWI4MC0zZjg1NzQ1OWViM2UiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoibWVtYmVyIiwibWVtYmVySWQiOiJhazAwMDAwMDIiLCJpYXQiOjE3NTMxNDEyODMsImV4cCI6MTc1Mzc0NjA4MywiYXVkIjoia3V0YnVsLXphbWFuLXVzZXJzIiwiaXNzIjoia3V0YnVsLXphbWFuIn0.0GBygU4BZCOa0yiTy8wpBrFIBwV6_0e8cTLkE-FAqoA",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "loginTime": "2025-07-21T23:41:23.579Z",
+      "isActive": true,
+      "lastActivity": "2025-07-21T23:41:23.579Z"
+    },
+    {
+      "id": "57b2aad7-523e-4413-a212-c2f77c63f899",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjZTI4ZWZiOC1mNzEyLTQ0ZjEtOWI4MC0zZjg1NzQ1OWViM2UiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJyb2xlIjoibWVtYmVyIiwibWVtYmVySWQiOiJhazAwMDAwMDIiLCJpYXQiOjE3NTMxNDEzOTAsImV4cCI6MTc1Mzc0NjE5MCwiYXVkIjoia3V0YnVsLXphbWFuLXVzZXJzIiwiaXNzIjoia3V0YnVsLXphbWFuIn0.Z-GUPDiMAytwowpLrsoEgmLvZ6nRqt8BXtgyZu5eBbE",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "loginTime": "2025-07-21T23:43:10.917Z",
+      "isActive": true,
+      "lastActivity": "2025-07-21T23:43:10.917Z"
+    },
+    {
+      "id": "5c06dddf-1d86-41ad-a595-82de4b54208a",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbi0wMDEiLCJlbWFpbCI6InBzaWtvbG9nYWJkdWxrYWRpcmthbkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJtZW1iZXJJZCI6ImFrMDAwMDAwMSIsImlhdCI6MTc1MzE0MTQyNSwiZXhwIjoxNzUzNzQ2MjI1LCJhdWQiOiJrdXRidWwtemFtYW4tdXNlcnMiLCJpc3MiOiJrdXRidWwtemFtYW4ifQ.8k6ffKKHPlClvErBWsrF1ZswPnKg9yBNtIGvOI2SLFQ",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "loginTime": "2025-07-21T23:43:45.591Z",
+      "isActive": true,
+      "lastActivity": "2025-07-21T23:43:45.591Z"
+    },
+    {
+      "id": "cb610b10-184d-45a2-953a-a1786e33d8bb",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbi0wMDEiLCJlbWFpbCI6InBzaWtvbG9nYWJkdWxrYWRpcmthbkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJtZW1iZXJJZCI6ImFrMDAwMDAwMSIsImlhdCI6MTc1MzM4ODk4NiwiZXhwIjoxNzUzOTkzNzg2LCJhdWQiOiJrdXRidWwtemFtYW4tdXNlcnMiLCJpc3MiOiJrdXRidWwtemFtYW4ifQ.LYOMafk2MWqcRLxMG6mM7sTkw0xLvT2deNGSCtHXRCY",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "loginTime": "2025-07-24T20:29:46.366Z",
+      "isActive": true,
+      "lastActivity": "2025-07-24T20:29:46.366Z"
+    },
+    {
+      "id": "00f79472-aa63-46a0-a580-888681b19707",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbi0wMDEiLCJlbWFpbCI6InBzaWtvbG9nYWJkdWxrYWRpcmthbkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJtZW1iZXJJZCI6ImFrMDAwMDAwMSIsImlhdCI6MTc1MzM4OTk2NCwiZXhwIjoxNzUzOTk0NzY0LCJhdWQiOiJrdXRidWwtemFtYW4tdXNlcnMiLCJpc3MiOiJrdXRidWwtemFtYW4ifQ.TPIojNqfjPUOTfDdI-enQuQLso-osKY9Cv06L5ijbMc",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "loginTime": "2025-07-24T20:46:04.950Z",
+      "isActive": true,
+      "lastActivity": "2025-07-24T20:46:04.950Z"
+    },
+    {
+      "id": "ce8506b8-529c-4c4c-86a6-dd47d3e0542a",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "sessionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbi0wMDEiLCJlbWFpbCI6InBzaWtvbG9nYWJkdWxrYWRpcmthbkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJtZW1iZXJJZCI6ImFrMDAwMDAwMSIsImlhdCI6MTc1MzM5MTE0MSwiZXhwIjoxNzUzOTk1OTQxLCJhdWQiOiJrdXRidWwtemFtYW4tdXNlcnMiLCJpc3MiOiJrdXRidWwtemFtYW4ifQ.OiY-VPAK3VWtKTAuPJNVRKrMOOjbr92WJKSp5UC-ZQU",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "loginTime": "2025-07-24T21:05:41.481Z",
+      "isActive": true,
+      "lastActivity": "2025-07-24T21:05:41.481Z"
+    }
+  ],
+  "memberLogs": [
+    {
+      "id": "a15d342e-264d-4e76-b707-9250b07e06e9",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "a71f1334-599e-4a7f-b7fd-76ea26026bc9",
+      "timestamp": "2025-07-21T22:40:39.758Z"
+    },
+    {
+      "id": "f03fbd40-1f30-4576-8e02-efa95885d76d",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "a71f1334-599e-4a7f-b7fd-76ea26026bc9",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "admin",
+        "timestamp": "2025-07-21T22:40:39.759Z"
+      },
+      "timestamp": "2025-07-21T22:40:39.759Z"
+    },
+    {
+      "id": "f1b04315-c49a-40dc-8afe-a3c5d3617058",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "8f316d57-fe30-4032-b407-c36a406915c8",
+      "timestamp": "2025-07-21T22:50:23.942Z"
+    },
+    {
+      "id": "09ae19af-2910-48c0-87f8-ab26a0c5fba3",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "8f316d57-fe30-4032-b407-c36a406915c8",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "member",
+        "timestamp": "2025-07-21T22:50:23.944Z"
+      },
+      "timestamp": "2025-07-21T22:50:23.944Z"
+    },
+    {
+      "id": "af63310e-ac9e-478c-a664-0ba061a5380f",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "40067078-6252-4d31-92a3-b79ab29852a6",
+      "timestamp": "2025-07-21T22:50:28.933Z"
+    },
+    {
+      "id": "3cefcbe3-375c-4e04-a8f0-99efc52d25ee",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "40067078-6252-4d31-92a3-b79ab29852a6",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "member",
+        "timestamp": "2025-07-21T22:50:28.934Z"
+      },
+      "timestamp": "2025-07-21T22:50:28.935Z"
+    },
+    {
+      "id": "f51ec458-4ad4-4c69-8807-1a0f2c917ce8",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "66b57ce7-45ad-4a85-843e-4d80654baea9",
+      "timestamp": "2025-07-21T23:41:08.959Z"
+    },
+    {
+      "id": "62f941e2-8f42-4436-b5a2-6cc00711196b",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "66b57ce7-45ad-4a85-843e-4d80654baea9",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "member",
+        "timestamp": "2025-07-21T23:41:08.960Z"
+      },
+      "timestamp": "2025-07-21T23:41:08.961Z"
+    },
+    {
+      "id": "8575b61e-7b72-4037-9b9a-f375b82b7a53",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "9e52f584-b200-4670-acc3-75bfa1347237",
+      "timestamp": "2025-07-21T23:41:23.581Z"
+    },
+    {
+      "id": "aa289828-d63b-45aa-af19-01500bec91ec",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "9e52f584-b200-4670-acc3-75bfa1347237",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "member",
+        "timestamp": "2025-07-21T23:41:23.582Z"
+      },
+      "timestamp": "2025-07-21T23:41:23.583Z"
+    },
+    {
+      "id": "6ba88bff-3cc4-40de-a684-c18f052ab9f8",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "57b2aad7-523e-4413-a212-c2f77c63f899",
+      "timestamp": "2025-07-21T23:43:10.920Z"
+    },
+    {
+      "id": "efdd5f84-f49b-4cdd-ad4f-3507fcb014d9",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "sessionId": "57b2aad7-523e-4413-a212-c2f77c63f899",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "member",
+        "timestamp": "2025-07-21T23:43:10.921Z"
+      },
+      "timestamp": "2025-07-21T23:43:10.921Z"
+    },
+    {
+      "id": "627329c2-bcbe-4507-b336-23338a2efb15",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "5c06dddf-1d86-41ad-a595-82de4b54208a",
+      "timestamp": "2025-07-21T23:43:45.593Z"
+    },
+    {
+      "id": "df82a808-ef8e-4a96-a333-23e4e1702b63",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "5c06dddf-1d86-41ad-a595-82de4b54208a",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "admin",
+        "timestamp": "2025-07-21T23:43:45.594Z"
+      },
+      "timestamp": "2025-07-21T23:43:45.595Z"
+    },
+    {
+      "id": "7edf6aa9-3e48-4e11-8437-0021915de7fb",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "cb610b10-184d-45a2-953a-a1786e33d8bb",
+      "timestamp": "2025-07-24T20:29:46.368Z"
+    },
+    {
+      "id": "fe748acb-6f45-4cf1-a930-150153c47493",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "cb610b10-184d-45a2-953a-a1786e33d8bb",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "admin",
+        "timestamp": "2025-07-24T20:29:46.369Z"
+      },
+      "timestamp": "2025-07-24T20:29:46.370Z"
+    },
+    {
+      "id": "8bd3ffde-b19d-4214-a193-d6d0784cee6d",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "00f79472-aa63-46a0-a580-888681b19707",
+      "timestamp": "2025-07-24T20:46:04.952Z"
+    },
+    {
+      "id": "f3ff2321-1df1-431b-b8b2-28578c7a66ae",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "00f79472-aa63-46a0-a580-888681b19707",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "admin",
+        "timestamp": "2025-07-24T20:46:04.954Z"
+      },
+      "timestamp": "2025-07-24T20:46:04.956Z"
+    },
+    {
+      "id": "4fd037f6-31fb-4b23-a816-ca5835d8de5b",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "SESSION_START",
+      "details": "New session started from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "ce8506b8-529c-4c4c-86a6-dd47d3e0542a",
+      "timestamp": "2025-07-24T21:05:41.483Z"
+    },
+    {
+      "id": "061ebdd6-513a-4ecb-a917-af81d8f24f66",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "action": "LOGIN",
+      "details": "Successful login from ::ffff:127.0.0.1",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "sessionId": "ce8506b8-529c-4c4c-86a6-dd47d3e0542a",
+      "metadata": {
+        "loginMethod": "email_password",
+        "userRole": "admin",
+        "timestamp": "2025-07-24T21:05:41.485Z"
+      },
+      "timestamp": "2025-07-24T21:05:41.486Z"
+    }
+  ],
+  "memberActivities": [
+    {
+      "id": "745a3fd8-72aa-4aca-a421-f1957c99656e",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "loginTime": "2025-07-21T22:40:39.760Z"
+      },
+      "timestamp": "2025-07-21T22:40:39.760Z"
+    },
+    {
+      "id": "807c01f1-a813-4762-b67a-83d429a913fd",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "curl/7.88.1",
+        "loginTime": "2025-07-21T22:50:23.945Z"
+      },
+      "timestamp": "2025-07-21T22:50:23.946Z"
+    },
+    {
+      "id": "017b803d-ed28-47ca-bbd5-edfacdd8347e",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "curl/7.88.1",
+        "loginTime": "2025-07-21T22:50:28.936Z"
+      },
+      "timestamp": "2025-07-21T22:50:28.936Z"
+    },
+    {
+      "id": "457eaa04-8b2a-4950-a7ee-fb3852336e17",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "curl/7.88.1",
+        "loginTime": "2025-07-21T23:41:08.962Z"
+      },
+      "timestamp": "2025-07-21T23:41:08.963Z"
+    },
+    {
+      "id": "dfe754a7-f69c-49f4-a612-a887d070a1e1",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "curl/7.88.1",
+        "loginTime": "2025-07-21T23:41:23.584Z"
+      },
+      "timestamp": "2025-07-21T23:41:23.585Z"
+    },
+    {
+      "id": "e9c4f6a7-7c2b-4a57-9a6a-85c8203f88c7",
+      "memberId": "ak0000002",
+      "userId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "curl/7.88.1",
+        "loginTime": "2025-07-21T23:43:10.922Z"
+      },
+      "timestamp": "2025-07-21T23:43:10.922Z"
+    },
+    {
+      "id": "3295cd0c-cf8a-427c-8fbe-aeefa4361955",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "loginTime": "2025-07-21T23:43:45.595Z"
+      },
+      "timestamp": "2025-07-21T23:43:45.596Z"
+    },
+    {
+      "id": "e4175579-1a8c-4531-b142-eeb3d9991885",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "loginTime": "2025-07-24T20:29:46.372Z"
+      },
+      "timestamp": "2025-07-24T20:29:46.372Z"
+    },
+    {
+      "id": "f5757fbf-ed89-49cc-ae24-cb78e3342d08",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "loginTime": "2025-07-24T20:46:04.957Z"
+      },
+      "timestamp": "2025-07-24T20:46:04.958Z"
+    },
+    {
+      "id": "4ca97c6f-12ba-404f-9bdd-26fb6a084cae",
+      "memberId": "ak0000001",
+      "userId": "admin-001",
+      "activityType": "AUTHENTICATION",
+      "description": "User logged in successfully",
+      "data": {
+        "ipAddress": "::ffff:127.0.0.1",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "loginTime": "2025-07-24T21:05:41.487Z"
+      },
+      "timestamp": "2025-07-24T21:05:41.488Z"
+    }
+  ],
+  "adminLogs": [
+    {
+      "id": "97bee7b7-9f6f-4f35-994a-a705417ca11c",
+      "action": "USER_LOGIN",
+      "targetUserId": "admin-001",
+      "details": "User Abdulkadir Kan (ak0000001) logged in from ::ffff:127.0.0.1",
+      "adminId": "admin-001",
+      "timestamp": "2025-07-21T22:40:39.761Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "71995137-3390-445d-8432-f1950dfd3265",
+      "action": "MANUAL_PLACEMENT",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "Manually placed Test User under Abdulkadir Kan on undefined side",
+      "adminId": "system",
+      "timestamp": "2025-07-21T22:50:19.275Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "aefbf2d6-7ea9-49fb-bbc8-198ef619c43f",
+      "action": "CREATE_USER",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "Created user: Test User (test@test.com) with member ID: ak0000002",
+      "adminId": "system",
+      "timestamp": "2025-07-21T22:50:19.278Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "f54f325b-0a9a-4ffa-92de-501c7842581d",
+      "action": "USER_REGISTER",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "New user registered: Test User (test@test.com) with sponsor: none",
+      "adminId": "system",
+      "timestamp": "2025-07-21T22:50:19.279Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "39d78c56-ceab-4744-8a2c-2e96348a5942",
+      "action": "USER_LOGIN",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "User Test User (ak0000002) logged in from ::ffff:127.0.0.1",
+      "adminId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "timestamp": "2025-07-21T22:50:23.947Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "4d7856a6-6425-440b-ba59-6dd538161394",
+      "action": "USER_LOGIN",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "User Test User (ak0000002) logged in from ::ffff:127.0.0.1",
+      "adminId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "timestamp": "2025-07-21T22:50:28.938Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "d8b763b8-e022-4ed5-9364-7bba579e8fb0",
+      "action": "USER_LOGIN",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "User Test User (ak0000002) logged in from ::ffff:127.0.0.1",
+      "adminId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "timestamp": "2025-07-21T23:41:08.964Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "dbd408aa-c3e3-4d71-8bf8-e150cc4204b2",
+      "action": "USER_LOGIN",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "User Test User (ak0000002) logged in from ::ffff:127.0.0.1",
+      "adminId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "timestamp": "2025-07-21T23:41:23.586Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "2d831b47-d7e3-458e-bc74-43b4d552b6aa",
+      "action": "USER_LOGIN",
+      "targetUserId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "details": "User Test User (ak0000002) logged in from ::ffff:127.0.0.1",
+      "adminId": "ce28efb8-f712-44f1-9b80-3f857459eb3e",
+      "timestamp": "2025-07-21T23:43:10.924Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "7db8dfb5-d1d7-42f4-889a-4861c9032d86",
+      "action": "USER_LOGIN",
+      "targetUserId": "admin-001",
+      "details": "User Abdulkadir Kan (ak0000001) logged in from ::ffff:127.0.0.1",
+      "adminId": "admin-001",
+      "timestamp": "2025-07-21T23:43:45.598Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "6e77ecdd-d8de-433e-825b-abcd3dec0c21",
+      "action": "USER_LOGIN",
+      "targetUserId": "admin-001",
+      "details": "User Abdulkadir Kan (ak0000001) logged in from ::ffff:127.0.0.1",
+      "adminId": "admin-001",
+      "timestamp": "2025-07-24T20:29:46.374Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "cf6b1a01-f02d-4f9a-81cf-935417552c71",
+      "action": "USER_LOGIN",
+      "targetUserId": "admin-001",
+      "details": "User Abdulkadir Kan (ak0000001) logged in from ::ffff:127.0.0.1",
+      "adminId": "admin-001",
+      "timestamp": "2025-07-24T20:46:04.962Z",
+      "ipAddress": "system"
+    },
+    {
+      "id": "95ebf8e6-beb6-4b04-844d-4c89a7ef9a16",
+      "action": "USER_LOGIN",
+      "targetUserId": "admin-001",
+      "details": "User Abdulkadir Kan (ak0000001) logged in from ::ffff:127.0.0.1",
+      "adminId": "admin-001",
+      "timestamp": "2025-07-24T21:05:41.490Z",
+      "ipAddress": "system"
+    }
+  ]
+}
